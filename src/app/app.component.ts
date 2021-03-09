@@ -3,15 +3,7 @@ export class Pessoa {
   rg: string;
   cpf: string;
   endereço: string;
-  telefone: string;
 }
-13h40
-.
-13h41
-.
-13h41
-.
-13h41
 import { Component } from '@angular/core';
 import {Pessoa} from './models/pessoa';
 @Component({

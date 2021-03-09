@@ -1,3 +1,11 @@
+export class Cliente {
+  nome: string;
+  rg: string;
+  cpf: string;
+  endereço: string;
+}
+
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({
