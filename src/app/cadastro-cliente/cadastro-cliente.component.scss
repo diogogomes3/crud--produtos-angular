@@ -1,0 +1,47 @@
+.email, .senha, .telefone, .cpf, .endereco, .nome {
+    margin: 0px 480px;
+    display: inline-block;
+    font-size: 20px;
+}
+.email input, .senha input, .telefone input, .cpf input, .endereco input, .nome input {
+    margin: 10px 10px 10px 20px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.nome input {
+    margin-left: 45px;
+}
+.cpf input {
+    margin-left: 58px;
+}
+.email input {
+    margin-left: 42px;
+}
+.endereco input {
+    margin-left: 13px;
+}
+.telefone input {
+    margin-left: 23px;
+}
+.senha input {
+    margin-left: 41px;
+}
+
+.btn-cadastrar {
+    margin-left: 600px;
+    margin-top: 10px;
+    padding: 8px 30px;
+    background-color: #000000;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn-cadastrar:hover {
+    color: black;
+    background-color: #9e9e9e;
+}

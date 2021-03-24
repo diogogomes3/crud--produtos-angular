@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo {
+    margin-top: 50px;
+    text-align: center;
+}
+.entrar, .cadastrar {
+    margin-left: 620px;
+    margin-top: 10px;
+    padding: 8px 30px;
+    background-color: #000000;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
