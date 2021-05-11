@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-cadastro-cliente',
@@ -6,10 +7,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastro-cliente.component.scss']
 })
 export class CadastroClienteComponent implements OnInit {
-
-  constructor() { }
+  public formClient: FormGroup;
+  constructor(private formBuilder: FormBuilder) {
+    this.formClient = this.formBuilder.group({
+      nome: [""],
+      email: [""],
+      cpf: [""],
+      endereco: [""],
+      telefone: [""],
+      senha: [""]
+    })
+  }
 
   ngOnInit(): void {
   }
 
+  cadastrar() {
+    console.log(this.formClient)
+  }
 }

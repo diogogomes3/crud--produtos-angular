@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 import { Routes} from '@angular/router';
 
 @Component({
@@ -7,8 +8,10 @@ import { Routes} from '@angular/router';
   styleUrls: ['./formulario-cliente.component.scss']
 })
 export class FormularioClienteComponent implements OnInit {
-
-  constructor() {}
+  public formClient: FormGroup;
+  constructor(private formBuilder: FormBuilder) {
+    this.formClient = this.formBuilder.group({})
+  }
 
   ngOnInit(): void {
   }

@@ -6,6 +6,9 @@ import { FormularioClienteComponent } from './formulario-cliente/formulario-clie
 import { CadastroClienteComponent } from './cadastro-cliente/cadastro-cliente.component';
 import { ListaClienteComponent } from './lista-cliente/lista-cliente.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CadastroProdutoComponent } from './cadastro-produto/cadastro-produto.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -13,10 +16,13 @@ import { AppRoutingModule } from './app-routing.module';
     FormularioClienteComponent,
     CadastroClienteComponent,
     ListaClienteComponent,
+    CadastroProdutoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

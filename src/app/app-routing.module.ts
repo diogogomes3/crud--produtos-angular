@@ -19,7 +19,7 @@ var rotas: Routes = [
   },
   {
     path: "",
-    redirectTo: "lista-cliente",
+    redirectTo: "cadastro-cliente",
     pathMatch: "full"
   }
 

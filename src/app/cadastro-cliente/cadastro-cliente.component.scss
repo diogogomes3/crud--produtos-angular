@@ -1,10 +1,15 @@
-.email, .senha, .telefone, .cpf, .endereco, .nome {
-    margin: 0px 480px;
+.cards {
+    margin: 10px 350px;
+    background-color: #c9c9c9a8;
+    border-radius: 60px;
+}
+.email, .senha, .telefone, .cpf, .endereco, .nome, .btn-cadastrar {
+    margin-left: 150px;
     display: inline-block;
     font-size: 20px;
 }
 .email input, .senha input, .telefone input, .cpf input, .endereco input, .nome input {
-    margin: 10px 10px 10px 20px;
+    margin: 20px 10px 10px 20px;
     padding-left: 10px;
     font-size: 20px;
     border-radius: 5px;
@@ -31,8 +36,9 @@
 }
 
 .btn-cadastrar {
-    margin-left: 600px;
+    margin-left: 250px;
     margin-top: 10px;
+    margin-bottom: 20px;
     padding: 8px 30px;
     background-color: #000000;
     border-radius: 5px;
